@@ -66,83 +66,29 @@ p {
     background-position: center;
 }
 
-
+/*Places the box to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+ /* Places the boxes to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* The section class content has the following features*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
+/*Used the #<name> for id since each has a unique value*/
+/* Switched the order so the class "content" comes first before class "benefits"
+so it makes the code more readable */
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Used the # for id since each has a unique value*/
+/* The box for the all the id's inside <di> on section of class "content" has the following features */
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -170,6 +116,7 @@ p {
     color: #ffffff;
 }
 
+/* The id's from the <di> in section class named content has the image at a max height */
 #search-engine-optimization img {
     max-height: 200px;
 }
@@ -182,6 +129,7 @@ p {
     max-height: 200px;
 }
 
+/* The heading 2 for all sections of class content have a margin bottom and a font size */
 #search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -197,6 +145,73 @@ p {
     font-size: 36px;
 }
 
+/* All the benefits atributes have the following features */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*From section names benefit, inside <div> class benefit-lead has these features */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*From section names benefit, inside <div> class benefit-brand has these features  */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*From section names benefit, inside <div> class benefit-cost has these features  */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* The head 3 for all the 3 boxes are placed at a margin bottom in the center */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* The images for all 3 boxes in section of class benefits are hidden with a margin and has width */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* The last section of class named footer has some features */
 .footer {
     padding: 30px;
     clear: both;
